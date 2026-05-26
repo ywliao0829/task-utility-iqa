@@ -55,18 +55,6 @@ The repository includes:
 - `figures/`: generated figures used in the paper;
 - `data/`: metadata or sample lists for the VisDrone-300 evidence study.
 
-## Citation
-
-If you find this repository useful, please cite our paper:
-
-```bibtex
-@article{liao2026taskutilityiqa,
-  title={Task-Utility IQA: Rethinking Image Quality Assessment for Embodied Settings},
-  author={Liao, Yanwei and others},
-  year={2026}
-}
-```
-
 ## License
 
 This repository is released for academic research purposes.
