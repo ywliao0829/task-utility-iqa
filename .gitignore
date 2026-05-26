@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+
+# Secrets
+.env
+*.key
+*.pem
+*.token
+secrets.*
+credentials.*
+config_private.*
+
+# Logs and cache
+*.log
+.cache/
+.cache_*/
+tmp/
+temp/
+runs/
+wandb/
+
+# Large raw data / model files
+data/raw/
+models/
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.ckpt
+*.zip
+*.tar
+*.tar.gz
+*.rar
+
+# OS
+.DS_Store
+Thumbs.db
