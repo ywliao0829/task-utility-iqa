@@ -1,0 +1,19 @@
+seed: 42
+num_samples: 300
+
+data:
+  visdrone_root: data/raw/visdrone/VisDrone2019-DET-val
+  subset_manifest: data/processed/manifest_visdrone_subset_300.jsonl
+  degraded_manifest: data/processed/manifest_visdrone_degraded_300.jsonl
+
+degradation:
+  types:
+    - original
+    - jpeg_low
+    - blur
+    - dark
+    - noise
+
+vlm:
+  model_id: Qwen/Qwen2.5-VL-3B-Instruct
+  max_new_tokens: 12

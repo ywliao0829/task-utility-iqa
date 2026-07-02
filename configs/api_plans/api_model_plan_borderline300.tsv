@@ -1,0 +1,5 @@
+provider	key_env	model	scale	group
+gemini	VIVIAI_GEMINI_KEY	gemini-2.5-flash-image	image_candidate	gemini_image_candidate
+gemini	VIVIAI_GEMINI_KEY	gemini-3-pro-image-preview	image_candidate	gemini_image_candidate
+gemini	VIVIAI_GEMINI_KEY	gemini-3.1-flash-image-preview	image_candidate	gemini_image_candidate
+grok	VIVIAI_GROK_KEY	grok-4	strong	grok_core

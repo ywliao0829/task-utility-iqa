@@ -1,0 +1,8 @@
+provider	key_env	model	scale	group
+claude	VIVIAI_CLAUDE_KEY	claude-haiku-4-5-20251001-thinking	thinking	claude_thinking_or_reasoning_candidate
+claude	VIVIAI_CLAUDE_KEY	claude-opus-4-5-20251101-thinking	thinking	claude_thinking_or_reasoning_candidate
+claude	VIVIAI_CLAUDE_KEY	claude-opus-4-6-thinking	thinking	claude_thinking_or_reasoning_candidate
+claude	VIVIAI_CLAUDE_KEY	claude-sonnet-4-5-20250929-thinking	thinking	claude_thinking_or_reasoning_candidate
+claude	VIVIAI_CLAUDE_KEY	claude-sonnet-4-6-thinking	thinking	claude_thinking_or_reasoning_candidate
+grok	VIVIAI_GROK_KEY	grok-4-1-fast-non-reasoning	reasoning	grok_thinking_or_reasoning_candidate
+grok	VIVIAI_GROK_KEY	grok-4-1-fast-reasoning	reasoning	grok_thinking_or_reasoning_candidate

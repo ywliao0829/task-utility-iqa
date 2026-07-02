@@ -1,0 +1,9 @@
+provider	key_env	model	scale	group
+gpt	VIVIAI_GPT_KEY	gpt-5.4-mini	light	gpt_core
+gpt	VIVIAI_GPT_KEY	gpt-5.5	latest	gpt_core
+gemini	VIVIAI_GEMINI_KEY	gemini-2.5-flash-lite	light	gemini_core
+gemini	VIVIAI_GEMINI_KEY	gemini-3.1-flash-image-preview	latest_image_candidate	gemini_image_candidate
+claude	VIVIAI_CLAUDE_KEY	claude-haiku-4-5-20251001	light	claude_core
+claude	VIVIAI_CLAUDE_KEY	claude-sonnet-4-6	latest_strong	claude_core
+grok	VIVIAI_GROK_KEY	grok-3-mini	light	grok_core
+grok	VIVIAI_GROK_KEY	grok-4.1	latest_strong	grok_core
